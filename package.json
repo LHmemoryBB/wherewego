@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "echarts": "^5.4.1",
+    "element-plus": "^2.0.1",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

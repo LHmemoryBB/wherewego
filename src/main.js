@@ -1,4 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+// ecahrts引入
+import * as echarts from 'echarts' 
+
+const app = createApp(App)
+
+app.config.globalProperties.$echarts = echarts;
+app.mount('#app')
